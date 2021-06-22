@@ -20,7 +20,7 @@ if __name__ == '__main__':
         for hata in haty:
             if not storage.is_saved(hata):
                 print('VOT ONO', hata)
-                # bot.sendMessage(CHAT_ID, hata)
+                bot.sendMessage(conf.CHAT_ID, hata)
                 storage.add(hata)
                 sleep(0.5)
 
