@@ -129,4 +129,5 @@ atlassian-ide-plugin.xml
 # custom
 private_conf.py
 /src/conf.py
-/src/haty.txt
+/src/archive.txt
+/src/task.json
